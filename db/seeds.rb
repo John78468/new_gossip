@@ -15,3 +15,4 @@ end
 10.times do
   city = City.create!(name: Faker::Name.name, zip_code: Faker::Zip_Code.zip_code)
 end
+
